@@ -34,7 +34,7 @@ width:extend-to-zoom;
 
 ul{
 list-style:none;
-height:6%;
+height:auto;
 width:100%;
 position:fixed;
 
@@ -269,7 +269,7 @@ td,th{
 
 
 #txt{
-height:5%;
+height:auto;
 width:100%;
 top:0;
 

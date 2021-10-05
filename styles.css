@@ -34,12 +34,12 @@ width:extend-to-zoom;
 
 ul{
 list-style:none;
-height:5%;
+height:6%;
 width:100%;
 position:fixed;
 
 background:crimson;
-padding-top:5%;
+
 text-align:center;
 box-shadow:0.2rem 0rem 0.5rem black;
 }
@@ -277,8 +277,20 @@ top:0;
 
 background:cyan;
 text-align:center;
+content-align:center;
 position:fixed;
 
+}
+
+
+.navbar.second-navbar {
+  margin-top: 4.5rem;
+  background: grey !important;
+  transition: all .5s ease-in-out;
+}
+
+.navbar.second-navbar.top-nav-collapse {
+  margin-top: 4.5rem;
 }
 
 @media(max-width:1015px){
@@ -292,4 +304,25 @@ position:fixed;
 		font-size:45%;
 	}
 }
+
+@media(max-width:500px){
+	html{
+		font-size:35%;
+	}
+}
+
+@media(max-width:400px){
+	html{
+		font-size:30%;
+	}
+}
+
+
+@media(max-width:300px){
+	html{
+		font-size:25%;
+	}
+}
+
+
 
